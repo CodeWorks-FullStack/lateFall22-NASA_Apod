@@ -1,0 +1,33 @@
+/* BASIC STYLES HERE */
+
+
+body {
+    background-size: cover;
+    background-position: center;
+}
+
+.apod-body {
+    visibility: hidden;
+    opacity: 0;
+    transition: ease 3s;
+}
+
+.apod-header:hover+.apod-body {
+    visibility: visible;
+    opacity: 1;
+}
+
+.text-shadow {
+    color: aliceblue;
+    font-weight: bold;
+    text-shadow: 1px 1px black,
+        1px 1px 5px #cda0f1bd,
+        -3px 1px 5px #ff300040;
+    letter-spacing: 0.08rem;
+}
+
+.fav-offcanvas {
+    background-color: rgb(51 27 61 / 14%);
+    backdrop-filter: blur(40px);
+
+}
